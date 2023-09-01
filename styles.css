@@ -1,0 +1,78 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montaga', serif;
+}
+
+body{
+	min-height: 100vh;
+	background: #4a98f7;
+}
+
+body, .wrapper .content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.wrapper {
+	width: 30%;
+    background: #fff;
+    padding: 30px 40px 30px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.wrapper img {
+	max-width: 100px;
+}
+
+.wrapper h1 {
+	font-size: 38px;
+	margin: 30px 0;
+	font-weight: 500;
+}
+
+.wrapper .content {
+	justify-content: space-between;
+	width: 100%;
+}
+
+.wrapper .content.disable {
+	opacity: 0.6;
+	pointer-events: none;
+}
+
+.content .coloumn {
+	border: 1px solid #999;
+    padding: 0 10px;
+    border-radius: 5px;
+    width: calc(100% /3 -5px);
+}
+
+.coloumn select{
+	outline: none;
+    border: none;
+    height: 52px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.wrapper button {
+	width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 17px 0;
+    border-radius: 5px;
+    background: #4a98f7;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+}
